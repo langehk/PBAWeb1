@@ -4,15 +4,26 @@
   <head>
     <meta charset="utf-8" />
     <title>PBAWEB</title>
+    <script src="js201.js"></script>
     <script src="js15.js"></script>
   </head>
 
   <body>
     <h1>PBA WEB 2020/21</h1>
 
+    <h3>Celcius/Fahrenheit converter</h3>
     Celcius:<input id="c" /> Fahrenheit:<input id="f" />
     <button type="button" id="convert" onclick="convertTemp()">
       Converter temp.
     </button>
+
+    <h3>Leap year check!</h3>
+
+    Date: <input id="date" />
+    <button type="button" id="checkDate" onclick="isLeapYear()">
+      Check if leap year
+    </button>
+
+    <h3 id="chkIfLeapYear"></h3>
   </body>
 </html>
