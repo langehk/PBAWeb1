@@ -11,4 +11,5 @@ function convertTemp() {
     c.value = Math.round(((f.value - 32) * 5) / 9);
     f.value = "";
   }
+
 }

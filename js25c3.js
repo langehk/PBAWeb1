@@ -5,3 +5,6 @@ let var12 = true;
 let var13 = true;
 
 console.log(var11 + "\t" + var12 + "\t" + var13 + "\t");
+console.log(var11 + "\t" + !var12 + "\t" + !var13 + "\t");
+console.log(!var11 + "\t" + var12 + "\t" + !var13 + "\t");
+console.log(!var11 + "\t" + !var12 + "\t" + !var13 + "\t");
