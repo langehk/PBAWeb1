@@ -8,18 +8,14 @@ function checkResult()
 
 for(let i = 0; i<calc1 + calc2; i++)
 {
-    
     if(i == calc2)
     {
-
         console.log(i + " er resultatet af 8 / 2 * 2 + 2");
     }
     else if(i == calc1)
     {
         console.log(i + " er resultatet af  8 / 2 * (2+2) ");
     }
-
-    
 }
 }
 
