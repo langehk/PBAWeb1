@@ -1,0 +1,6 @@
+# .gitignore
+# exclude directory node_modules and its content
+node_modules/
+
+# exclude subdirectories, they (might) have their own individual repos
+/*
