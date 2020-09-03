@@ -1,17 +1,17 @@
 function isWoman() {
-  let data = document.getElementById("cpr");
+  let cpr = document.getElementById("cpr");
 
   let result = document.getElementById("chkIfWoman");
 
-  
-while (data.value % 2 == 0)
+
+while (cpr.value % 2 == 0)
 {
-  result.innerHTML = data.value + " is a Woman!";
+  result.innerHTML = cpr.value + " is a Woman!";
   return;
 }
-while(data.value % 2 == 1)
+while(cpr.value % 2 == 1)
 {
-  result.innerHTML = data.value + " is a Man!";
+  result.innerHTML = cpr.value + " is a Man!";
   return;
 }
 

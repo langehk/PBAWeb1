@@ -9,6 +9,13 @@ function convertTemp() {
     f = document.getElementById("f");
 
     
+// uden If
+/*
+'use strict';
+var f = Number(prompt('Indtast fahrenheit'));
+var c = 5 / 9 * (f - 32);
+console.log(`${f} is ${c}`);
+*/
 
   if (c.value != "") {
     f.value = Math.round((c.value * 9) / 5 + 32);
